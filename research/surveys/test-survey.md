@@ -45,4 +45,4 @@ Library visitors, students
 <!-- Missing or slightly incorrect header to test template check -->
 \## Unexpected Outcome
 
-Understand user satisfaction
+Understand user satisfaction :)
