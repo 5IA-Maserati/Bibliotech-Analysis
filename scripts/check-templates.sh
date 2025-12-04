@@ -6,14 +6,15 @@
 # This script checks that required headers are present in Markdown files
 # It decides the headers to check based on the folder
 # Only checks files passed as arguments
-# Exit code 1 if any header is missing
+# Reports all errors, exit code 1 if any header is missing
 
 if [ "$#" -eq 0 ]; then
   echo "No files provided. Exiting."
   exit 0
 fi
 
-# Loop through all files passed as arguments
+errors=0
+
 for file in "$@"; do
   # Skip non-markdown files
   [[ "$file" != *.md ]] && continue
@@ -79,9 +80,14 @@ for file in "$@"; do
   for header in "${required_headers[@]}"; do
     if ! grep -q "$header" "$file"; then
       echo "ERROR: $file is missing required header: $header"
-      exit 1
+      errors=$((errors + 1))
     fi
   done
 done
 
-echo "All checked files passed header checks!"
+if [ $errors -ne 0 ]; then
+  echo "$errors error(s) found."
+  exit 1
+else
+  echo "All checked files passed header checks!"
+fi

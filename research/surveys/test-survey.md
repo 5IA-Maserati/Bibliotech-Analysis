@@ -42,15 +42,7 @@ Library visitors, students
 
 
 
-\## Expected Outcome
+<!-- Missing or slightly incorrect header to test template check -->
+\## Unexpected Outcome
 
 Understand user satisfaction
-
-
-
-<!-- Missing or slightly incorrect header to test template check -->
-
-\## Extra Info
-
-This should trigger an error
-
