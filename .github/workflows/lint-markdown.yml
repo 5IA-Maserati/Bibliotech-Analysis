@@ -37,4 +37,4 @@ jobs:
 
       # 5️ Run custom templates check script on all Markdown files
       - name: Run templates check
-        run: bash scripts/check-templates.sh $(find . -name "*.md" | sed 's|^\./||')
+        run: bash check-templates.sh $(find . -name "*.md" | sed 's|^\./||')
