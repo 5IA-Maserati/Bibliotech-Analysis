@@ -31,12 +31,14 @@ jobs:
       - name: Install markdownlint
         run: npm install -g markdownlint-cli
 
-      # 4️ Get changed Markdown files
-      - name: Get changed Markdown files
-        id: changed_files
+      # 4 Get changed files
+      - name: Get changed Mardkdown files
+        id: changed-files
         run: |
-          echo "CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.md$' || true)" >> $GITHUB_ENV
-          echo "Changed Markdown files: $CHANGED_FILES"
+          git fetch --no-tags --prune --depth=2
+          CHANGED=$(git diff --name-only HEAD~1 HEAD | grep -E '\.md$' || true)
+          echo "CHANGED_FILES=$CHANGED" >> $GITHUB_ENV
+
 
       # 5️ Lint only changed Markdown files
       - name: Lint changed Markdown files
