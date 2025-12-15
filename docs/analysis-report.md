@@ -79,3 +79,63 @@ Based on the collected data, it is recommended to proceed with development by fo
 4. **Notification System:** Implement automatic alerts (email/SMS) when a searched book becomes available, a feature requested by 55.3% of users when the item is not immediately available.
 5. **Flexible Logistics:** Do not impose shipping only. Facilitate in-person meetings (possibly in “safe zones” such as the school itself) to satisfy the 27.2% who prefer hand-to-hand exchange.
 
+## **7. All Graphs**
+
+``` mermaid
+pie title  UUUsefulness of Digital Borrowing from Home
+    "Very Useful" : 66.4
+    "Quite Useful" : 31
+    "Slightly Useful" : 1.8
+    "Not useful at all" : 0.9
+```
+
+``` mermaid
+pie title IEExpected Frequency of Digital Library Use
+    "Weekly" : 47.4
+    "Monthly" : 37.7
+    "Rarely or never" : 9.6
+    "Daily" : 5.3
+
+```
+
+``` mermaid
+pie title MMMMMost Important Functionalities (Digital Library)
+    "Quick access to school/teaching materials" : 68.4
+    "Advanced content search" : 26.3
+    "Ability to create lists or favorites" : 3.5
+    "Technical support and/or assistance" : 1.8
+```
+
+``` mermaid
+pie title Interest in Specialized Used Book Platform
+    "Very interested" : 37.7
+    "Quite interested" : 22.8
+    "Extremely interested" : 19.3
+    "Not interested at all" : 13.2
+    "Slightly interested" : 7
+```
+
+``` mermaid
+pie title Expected Discount on Used Books
+    "31% to 50% discount" : 42.1
+    "Over 50% discount" : 36
+    "Up to 30% discount" : 15.8
+    "No precise expectation" : 6.1
+```
+
+``` mermaid
+pie title Concern Regarding Online Fraud Risk
+    "Medium" : 48.2
+    "High" : 25.4
+    "Low" : 17.5
+    "None" : 7
+    "Terrified" : 1.9
+```
+
+``` mermaid
+pie title Preferred Delivery/Collection Method
+    "Tracked home delivery" : 30.7
+    "Hand-off collection in area/arranged with seller" : 27.2
+    "It is indifferent" : 27.2
+    "Use of collection points/automatic lockers" : 14.9
+```
