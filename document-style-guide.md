@@ -28,7 +28,7 @@ This guide ensures all documents in Bibliotech Analysis are consistent and profe
   - `Added survey template` ❌
 
 ## Checklist Before Commit
-- [ ] File name correct
+- [ ] Filename correct
 - [ ] Markdown formatting correct
 - [ ] Content complete and accurate
 - [ ] Links work correctly
