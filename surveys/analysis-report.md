@@ -99,7 +99,7 @@ pie title IEExpected Frequency of Digital Library Use
 ```
 
 ``` mermaid
-pie title MMMMMost Important Functionalities (Digital Library)
+pie title MMMM   Most Important Functionalities (Digital Library)
     "Quick access to school/teaching materials" : 68.4
     "Advanced content search" : 26.3
     "Ability to create lists or favorites" : 3.5
@@ -107,7 +107,7 @@ pie title MMMMMost Important Functionalities (Digital Library)
 ```
 
 ``` mermaid
-pie title Interest in Specialized Used Book Platform
+pie title III  Interest in Specialized Used Book Platform
     "Very interested" : 37.7
     "Quite interested" : 22.8
     "Extremely interested" : 19.3
